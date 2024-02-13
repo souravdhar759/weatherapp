@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div
+      class="main my-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 container"
+    >
+      <div class="input  flex justify-center">
+        <input
+          type="text "
+          placeholder="search weather report"
+          class="p-2 col-10 px-8 my-4 rounded-[20px]"
+          id="search"
+          name=""
+          id=""
+        /><button
+        id="btn"
+          class="col-2 bg-zinc-100 h-10 w-10 flex item-center rounded-[50%] my-4"
+        >
+          <img src="search-icon.svg" class="w-6 relative top-2 left-2" alt="" />
+        </button>
+      </div>
+      <div  class="row flex item-center justify-center ">
+        <img id="icon" src="images/clouds.png" class="w-[300px]" alt="" />
+      </div>
+      <div class="my-2 row  flex item-center justify-around text-white">
+        <div class=" col-md-6 text-center">
+          <h1 class="text-4xl font-bold">Weather :</h1>
+        </div>
+        <div class="col-md-6">
+          <p id="city" class="text-5xl font-bold text-center">kolkata</p>
+          <p id="sky" class="text-2xl font-bold text-center">Most Cloudy</p>
+        </div>
+      </div>
+      <div
+        class="flex  row item-center gap-2 justify-around py-4 text-white"
+      >
+        <div class="col-md-4 flex item-center justify-center">
+          <h2 id="temp" class="text-5xl font-bold">19°C</h2><p> </p>
+        </div>
+        <div class="flex col-md-4 item-center justify-center">
+          <p id="hum" class="text-3xl font-bold">Humidity: 75%</p>
+          <img src="images/humidity.png" class="w-5" alt="" />
+        </div>
+        <div class="flex  col-md-4 item-center justify-center">
+          <p id="wind" class="text-3xl">windspeed</p>
+          <img src="images/wind.png" class="w-7" alt="" />
+        </div>
+      </div>
+    </div>
+    <script src="logic.js"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

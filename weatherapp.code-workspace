@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../levelone/images"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "weatherapp"
+	}
+}
